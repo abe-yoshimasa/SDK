@@ -13,7 +13,7 @@ External camera tracks LED makers.
 * Low cost
 
     <div style="width:500px;" >
-    ![Screenshot](https://github.com/Ximmerse/SDK/tree/master/img/roomscale-ximer.png)
+    ![Screenshot](https:\\github.com\Ximmerse\SDK\tree\master\img\roomscale-ximer.png)
     </div>
 
 ## Motion Controllers
