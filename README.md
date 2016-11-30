@@ -12,9 +12,9 @@ External camera tracks LED makers.
 * Easy setup
 * Low cost
 
-    <div style="width:500px;" >
-    ![Screenshot](https:\\github.com\Ximmerse\SDK\tree\master\img\roomscale-ximer.png)
-    </div>
+	<div align = center>
+	<img src="imgs/roomscale-ximer.png" >
+	</div>
 
 ## Motion Controllers
 Interactions and social in VR with a more immersive experience.
