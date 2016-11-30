@@ -1,3 +1,4 @@
+<div align=right><img src="imgs/xim.png" ></div>
 # SDK
 SDK Documentation: https://ximmerse.github.io/SDK_Doc/
 
