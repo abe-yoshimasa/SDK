@@ -1,4 +1,4 @@
-<div align=right><img src="imgs/xim.png" ></div>
+<div align=right><img src="Tools/imgs/xim.png" ></div>
 # SDK
 SDK Documentation: https://ximmerse.github.io/SDK_Doc/
 
@@ -14,7 +14,7 @@ External camera tracks LED makers.
 * Low cost
 
 	<div align = center>
-	<img src="imgs/roomscale-ximer.png" >
+	<img src="Tools/imgs/roomscale-ximer.png" >
 	</div>
 
 ## Motion Controllers
