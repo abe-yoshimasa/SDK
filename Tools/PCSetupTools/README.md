@@ -4,7 +4,7 @@
 >Note : The light on bottom of the camera will be flashing once connected to a power source. When you mount the camera on a wall or on a tripod, it is recommended to make sure the tracking camera is sitting at your eye level.
 
     <div align = center>
-	<img src="../imgs/power_up_camera.png" width="400">
+	<img src="../imgs/power_up_camera.jpg" width="400">
     </div>
 
 1. Run `reg.bat` as **administrator** to setup dev environment. 
