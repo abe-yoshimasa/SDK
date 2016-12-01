@@ -65,7 +65,7 @@ Feel free to explore other options in Ximmerse Settings tool. The names of the f
 This prefab is needed in the scene if you want to use provided ray caster to interact with Unity UI elements.
 
 	<div align = center>
-	<img src="../Tools/imgs/event_system_inspector.png" width="800">
+	<img src="../Tools/imgs/recommended_area.png" width="800">
     </div>
 
 ##### Inspector Options
