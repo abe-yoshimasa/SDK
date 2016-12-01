@@ -64,7 +64,7 @@ Feel free to explore other options in Ximmerse Settings tool. The names of the f
 ##### Description
 This prefab is needed in the scene if you want to use provided ray caster to interact with Unity UI elements.
 
-##### Inspector Options:
+##### Inspector Options
 
 	<div align = center>
 	<img src="../Tools/imgs/event_system_inspector.png" width="800">
@@ -78,7 +78,7 @@ This prefab is needed in the scene if you want to use provided ray caster to int
 ##### Description
 A prefab that can be used to interact Unity UI with laser beam.
 
-##### Inspector Options:
+##### Inspector Options
 
 	<div align = center>
 	<img src="../Tools/imgs/ray_caster_inspector.png" width="800">
