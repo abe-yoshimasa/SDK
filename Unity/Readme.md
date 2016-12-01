@@ -83,7 +83,7 @@ A prefab that can be used to interact Unity UI with laser beam.
 	<div align = center>
 	<img src="../Tools/imgs/ray_caster_inspector.png" width="800">
     </div>
-
+	
   - `Controller` : If this is "None", it will match its parent `ControllerType`. If it can't find anything, it will default to HMD input during runtime.
 
 ***
