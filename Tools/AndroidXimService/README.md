@@ -23,10 +23,10 @@ Follow these steps to ensure your DK04 devices work properly:
 
 1. The first time when you open the BTConfig, it will prompt user to install Ximmerse Service. Please hit ``"Next"`` and then hit ``"Install"``.
     <div align = center>
-	<img src="../imgs/initial_btconfig_launch.jpg" >
+	<img src="../imgs/initial_btconfig_launch.png" >
     </div>
     <div align = center>
-	<img src="../imgs/install_xim_service.jpg" >
+	<img src="../imgs/install_xim_service.png" >
     </div>
 
 1. Hook up your head tracking blob tracker to your phone through OTG wire. Select ``'"Ximmerse Service Launcher"'`` as the default application for the USB device. When you plug in the cable to your phone, it may look like either of the screenshots below. Once you have done this step, every time when you plug in the head tracking blob, it will start Ximmerse Service.
@@ -35,20 +35,20 @@ Follow these steps to ensure your DK04 devices work properly:
 	<img src="../imgs/otg_to_phone.jpg" >
     </div>
     <div align = center>
-	<img src="../imgs/select_usb.jpg" >
+	<img src="../imgs/select_usb.png" >
     </div>
 
 1. Go to ``"Application Manager"`` on your android phone, find ``'"Ximmerse Service Launcher"'`` and click on it. Then click on ``"Permissions"``. You only have to do this once though.
 
     <div align = center>
-	<img src="../imgs/application_manager_app_info.jpg" >
+	<img src="../imgs/application_manager_app_info.png" >
     </div>
 
 
 1. Make sure ``'"Ximmerse Service Launcher"'`` has both permissions selected.
 
     <div align = center>
-	<img src="../imgs/launcher_service_permissions.jpg" >
+	<img src="../imgs/launcher_service_permissions.png" >
     </div>
 
 1. Go to ``"BTConfig"`` if you are not in that application. Push both grip buttons. While keep both grip buttons pressed, click on ``"Scan"`` button to connect controller. When controller is connected, the LED indicator on the controller should turn blue.
@@ -64,5 +64,5 @@ Follow these steps to ensure your DK04 devices work properly:
 
 1. While keeping the connection between tracking blob and phone, please launch the ``"Device Test"`` application that was installed earlier. Now you should be able to see data getting outputted on the screen. You can also switch UI by clicking on ``"X-Cobra"`` or ``"X-Hawk"`` button located at top left corner.
     <div align = center>
-	<img src="../imgs/test_app.jpg" >
+	<img src="../imgs/test_app.png" >
     </div>
