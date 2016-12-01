@@ -26,11 +26,11 @@ SDK v1.0
 1. Import Unity SDK package to your project.
 1. Create a plane where you can walk on. You can skip this step if you have an existing game environment.
 	<div align = center>
-	<img src="../tools/imgs/empty_scene_with_plane.png" width="500">
+	<img src="../Tools/imgs/empty_scene_with_plane.png" width="500">
     </div>
 1. Drag and drop `VRCameraRig` to the scene.
 	<div align = center>
-	<img src="../tools/imgs/vrcamerarig_withhead.png" width="500">
+	<img src="../Tools/imgs/vrcamerarig_withhead.png" width="500">
     </div>
 
 1. Make sure your hardware is hooked up to PC. Find how [here](https://github.com/Ximmerse/SDK/tree/master/Tools/PCSetupTools).
@@ -38,7 +38,7 @@ SDK v1.0
 1. Hit **Play** button in editor.
 1. Move the head tracking blobs or/and controllers in front of the camera, and you should be able to see the virtual head or/and virtual controllers moving in the scene window.
 	<div align = center>
-	<img src="../tools/imgs/playbutton.jpg" width="500">
+	<img src="../Tools/imgs/playbutton.jpg" width="500">
     </div>
 
 ***
@@ -47,7 +47,7 @@ SDK v1.0
 Since SDK v2.0, a Ximmerse Settings tool is provided. 
 You can access it by going **Window->Ximmerse Settings** to open up the Ximmerse Setting tool.
 	<div align = center>
-	<img src="../tools/imgs/xim_unity_settings_tool.png" width="500">
+	<img src="../Tools/imgs/xim_unity_settings_tool.png" width="500">
     </div>
 	
 #### Inspector Options:
@@ -64,7 +64,7 @@ This prefab is needed in the scene if you want to use provided ray caster to int
 
 ##### Inspector Options:
 	<div align = center>
-	<img src="../tools/imgs/event_system_inspector.png" width="300">
+	<img src="../Tools/imgs/event_system_inspector.png" width="300">
     </div>
 
 >Note: The prefab is already configured out of box and ready to be used.
@@ -77,7 +77,7 @@ A prefab that can be used to interact Unity UI with laser beam.
 
 ##### Inspector Options:
 	<div align = center>
-	<img src="../tools/imgs/ray_caster_inspector.png" width="300">
+	<img src="../Tools/imgs/ray_caster_inspector.png" width="300">
     </div>
 
   - `Controller` : If this is "None", it will match its parent `ControllerType`. If it can't find anything, it will default to HMD input during runtime.
@@ -111,7 +111,7 @@ If you look closely, there are a few objects getting created every time the game
 #### Default ControllerInput Manager
 Default ControllerInput Manager prefab is a configuration prefab.
 	<div align = center>
-	<img src="../tools/imgs/default_controllerinput.png" width="300">
+	<img src="../Tools/imgs/default_controllerinput.png" width="300">
     </div>
 
 ***
@@ -120,7 +120,7 @@ Default ControllerInput Manager prefab is a configuration prefab.
 TrackerFrustum is a virtual representation of recommended interaction area. This prefab will be instantiated during runtime and get renamed as **"TrackerAnchor(X-Hawk DK4)"**
 If any of the devices(head blob, left controller, and right controller) is out of recommended interaction area, the grid wall will show up.
 	<div align = center>
-	<img src="../tools/imgs/recommended_area.png" width="300">
+	<img src="../Tools/imgs/recommended_area.png" width="300">
     </div>
 
 ##### Key Inspector Settings
