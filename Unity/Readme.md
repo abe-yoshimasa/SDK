@@ -63,17 +63,6 @@ Feel free to explore other options in Ximmerse Settings tool. The names of the f
 #### VREventSystem
 ##### Description
 This prefab is needed in the scene if you want to use provided ray caster to interact with Unity UI elements.
-
-	<div align = center>
-	<img src="../Tools/imgs/recommended_area.png" width="800">
-    </div>
-
-##### Inspector Options
-
-	<div align = center>
-	<img src="../Tools/imgs/event_system_inspector.png" width="800">
-    </div>
-
 >Note: The prefab is already configured out of box and ready to be used.
 
 ***
@@ -83,11 +72,6 @@ This prefab is needed in the scene if you want to use provided ray caster to int
 A prefab that can be used to interact Unity UI with laser beam.
 
 ##### Inspector Options
-
-	<div align = center>
-	<img src="../Tools/imgs/ray_caster_inspector.png" width="800">
-    </div>
-	
   - `Controller` : If this is "None", it will match its parent `ControllerType`. If it can't find anything, it will default to HMD input during runtime.
 
 ***
