@@ -52,7 +52,9 @@ You can access it by going **Window->Ximmerse Settings** to open up the Ximmerse
 	
 #### Inspector Options:
 `VR Device` : Select which VR famility to support. Currently, there are 2 major families. One is Google Cardboard/Daydream, the other one GearVR/Oculus. 
+
 `Position` : Default User Height. 
+
 `Rotation` : 15 degrees matches the tracking camera actual angle.
 
 Feel free to explore other options in Ximmerse Settings tool. The names of the fiels should be very self-explanary. 
@@ -63,6 +65,7 @@ Feel free to explore other options in Ximmerse Settings tool. The names of the f
 This prefab is needed in the scene if you want to use provided ray caster to interact with Unity UI elements.
 
 ##### Inspector Options:
+
 	<div align = center>
 	<img src="../Tools/imgs/event_system_inspector.png" width="800">
     </div>
@@ -76,6 +79,7 @@ This prefab is needed in the scene if you want to use provided ray caster to int
 A prefab that can be used to interact Unity UI with laser beam.
 
 ##### Inspector Options:
+
 	<div align = center>
 	<img src="../Tools/imgs/ray_caster_inspector.png" width="800">
     </div>
