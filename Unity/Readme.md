@@ -58,13 +58,18 @@ You can access it by going **Window->Ximmerse Settings** to open up the Ximmerse
 `Rotation` : 15 degrees matches the tracking camera actual angle.
 
 Feel free to explore other options in Ximmerse Settings tool. The names of the fiels should be very self-explanary. 
+
 ==========================================================================
+
 <h1> Prefab Description</h1>
+
 ============================================================================
+
 <h2> VREventSystem </h2>
 ##### Description
 This prefab is needed in the scene if you want to use provided ray caster to interact with Unity UI elements.
 >Note: The prefab is already configured out of box and ready to be used.
+
 ===========================================================================
 
 <h2> VRRaycaster</h2>
@@ -96,6 +101,7 @@ This is a virtual representation of the **RIGHT** controller or **GREEN** blob c
 * `Use Rotation`: If this TrackedObject instance accepts Rotation information.
 * `Check Parent`: If this TrackedObject instance will be placed under TrackingSpace during runtime. This is unchecked if you wish to customize prefab structure.
 * `Can Recenter`: If you can reset yaw or not.
+
 ===========================================================================
 
 <h1> Runtime Generated Objects</h1>
