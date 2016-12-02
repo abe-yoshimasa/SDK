@@ -41,9 +41,9 @@ SDK v1.0
 	<img src="../Tools/imgs/playbutton.jpg" width="800">
     </div>
 
-***
+=======================================================
 
-### Ximmerse Settings Tool 
+<h2>Ximmerse Settings Tool </h2>
 Since SDK v2.0, a Ximmerse Settings tool is provided. 
 You can access it by going **Window->Ximmerse Settings** to open up the Ximmerse Setting tool.
 	<div align = center>
@@ -58,14 +58,14 @@ You can access it by going **Window->Ximmerse Settings** to open up the Ximmerse
 `Rotation` : 15 degrees matches the tracking camera actual angle.
 
 Feel free to explore other options in Ximmerse Settings tool. The names of the fiels should be very self-explanary. 
-
-### Prefab Description
+==========================================================================
+<h1> Prefab Description</h1>
+============================================================================
 <h2> VREventSystem </h2>
 ##### Description
 This prefab is needed in the scene if you want to use provided ray caster to interact with Unity UI elements.
 >Note: The prefab is already configured out of box and ready to be used.
-
-***
+===========================================================================
 
 <h2> VRRaycaster</h2>
 ##### Description
@@ -74,7 +74,7 @@ A prefab that can be used to interact Unity UI with laser beam.
 ##### Inspector Options
   - `Controller` : If this is "None", it will match its parent `ControllerType`. If it can't find anything, it will default to HMD input during runtime.
 
-***
+===========================================================================
 
 <h2> VRCameraRig</h2>
 ##### LeftHandAnchor
@@ -96,8 +96,9 @@ This is a virtual representation of the **RIGHT** controller or **GREEN** blob c
 * `Use Rotation`: If this TrackedObject instance accepts Rotation information.
 * `Check Parent`: If this TrackedObject instance will be placed under TrackingSpace during runtime. This is unchecked if you wish to customize prefab structure.
 * `Can Recenter`: If you can reset yaw or not.
+===========================================================================
 
-### Runtime Generated Objects
+<h1> Runtime Generated Objects</h1>
 If you look closely, there are a few objects getting created every time the game runs.
 
 <h2> Default ControllerInput Manager</h2>
@@ -106,7 +107,7 @@ Default ControllerInput Manager prefab is a configuration prefab.
 	<img src="../Tools/imgs/default_controllerinput.png" width="800">
     </div>
 
-***
+===========================================================================
 
 <h2>TrackerFrustum</h2>
 TrackerFrustum is a virtual representation of recommended interaction area. This prefab will be instantiated during runtime and get renamed as **"TrackerAnchor(X-Hawk DK4)"**
@@ -119,20 +120,28 @@ If any of the devices(head blob, left controller, and right controller) is out o
 - `Fov X`: Horizontal FOV of the device.
 - `Fov Y`: Vertical FOV of the device.
 - `Tracked Nodes`: Defines what defines to track when it is out of recommended interaction area. 0 stands for left controller. 1 stands for right controller. 2 stands for head tracking blob.
-***
+
+===========================================================================
 
 <h2>_PlayArea</h2>
 _PlayArea and all the children attached to it are generated during runtime. It is not a prefab. 
+
+===========================================================================
 
 <h2>HeadAnchor(Outside-In)</h2>
 This prefab is instantiated during runtime, and is renamed as "HeadAnchor".
 CenterEyeAnchor is attached to this HeadAnchor during runtime. 
 
+===========================================================================
+
 <h2>GvrViewerMain</h2>
 This prefab is required when developing on Cardboard/Daydream system. 
 Once Google Daydream unity is imported, this prefab will automaticly find required script from Daydream unity plugin.
 
+===========================================================================
+
 <h2>PlayerPrefsEx-Default</h2>
 PlayerPrefsEx-Default is prefab that contains all the settings related to Ximmerse Setting tool. 
 
+===========================================================================
 
