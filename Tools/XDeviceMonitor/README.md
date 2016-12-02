@@ -26,7 +26,7 @@
 
     * Run ``"XDeviceMonitor.exe"`` executable which can be downloaded [here](https://github.com/Ximmerse/SDK/blob/master/Tools/XDeviceMonitor/XDeviceMonitor.rar?raw=true)
 
-    * Most of the time, once ``"XDeviceMonitor.exe"`` starts, it should try to automatically search and pair your controllers. However, if this doesn't happy after a while, you can always RIGHT click on controller icon and select ``"Auto-Connect"``.
+    * Most of the time, once ``"XDeviceMonitor.exe"`` starts, it should try to automatically search and pair your controllers. However, if this doesn't auto-connect after a while, you can always RIGHT click on controller icon and select ``"Auto-Connect"``.
         <div align = center>
 		<img src="../imgs/xdevice_monitor_controller_icon.png" width="400">
         </div>
