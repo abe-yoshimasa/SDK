@@ -60,14 +60,14 @@ You can access it by going **Window->Ximmerse Settings** to open up the Ximmerse
 Feel free to explore other options in Ximmerse Settings tool. The names of the fiels should be very self-explanary. 
 
 ### Prefab Description
-#### VREventSystem
+<h2> VREventSystem </h2>
 ##### Description
 This prefab is needed in the scene if you want to use provided ray caster to interact with Unity UI elements.
 >Note: The prefab is already configured out of box and ready to be used.
 
 ***
 
-#### VRRaycaster
+<h2> VRRaycaster</h2>
 ##### Description
 A prefab that can be used to interact Unity UI with laser beam.
 
@@ -76,7 +76,7 @@ A prefab that can be used to interact Unity UI with laser beam.
 
 ***
 
-#### VRCameraRig
+<h2> VRCameraRig</h2>
 ##### LeftHandAnchor
 This is a virtual representation of the **LEFT** controller or **RED** blob controller.
 ###### Inspector Options:
@@ -100,7 +100,7 @@ This is a virtual representation of the **RIGHT** controller or **GREEN** blob c
 ### Runtime Generated Objects
 If you look closely, there are a few objects getting created every time the game runs.
 
-#### Default ControllerInput Manager
+<h2> Default ControllerInput Manager</h2>
 Default ControllerInput Manager prefab is a configuration prefab.
 	<div align = center>
 	<img src="../Tools/imgs/default_controllerinput.png" width="800">
@@ -108,7 +108,7 @@ Default ControllerInput Manager prefab is a configuration prefab.
 
 ***
 
-#### TrackerFrustum
+<h2>TrackerFrustum</h2>
 TrackerFrustum is a virtual representation of recommended interaction area. This prefab will be instantiated during runtime and get renamed as **"TrackerAnchor(X-Hawk DK4)"**
 If any of the devices(head blob, left controller, and right controller) is out of recommended interaction area, the grid wall will show up.
 	<div align = center>
@@ -121,18 +121,18 @@ If any of the devices(head blob, left controller, and right controller) is out o
 - `Tracked Nodes`: Defines what defines to track when it is out of recommended interaction area. 0 stands for left controller. 1 stands for right controller. 2 stands for head tracking blob.
 ***
 
-#### _PlayArea
+<h2>_PlayArea</h2>
 _PlayArea and all the children attached to it are generated during runtime. It is not a prefab. 
 
-#### HeadAnchor(Outside-In)
+<h2>HeadAnchor(Outside-In)</h2>
 This prefab is instantiated during runtime, and is renamed as "HeadAnchor".
 CenterEyeAnchor is attached to this HeadAnchor during runtime. 
 
-#### GvrViewerMain
+<h2>GvrViewerMain</h2>
 This prefab is required when developing on Cardboard/Daydream system. 
 Once Google Daydream unity is imported, this prefab will automaticly find required script from Daydream unity plugin.
 
-#### PlayerPrefsEx-Default
+<h2>PlayerPrefsEx-Default</h2>
 PlayerPrefsEx-Default is prefab that contains all the settings related to Ximmerse Setting tool. 
 
 
