@@ -3,9 +3,17 @@
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/vif_awb7JV0/0.jpg)](https://www.youtube.com/watch?v=vif_awb7JV0)
 
 # SDK
-SDK Documentation: https://ximmerse.github.io/SDK_Doc/
+SDK API Documentation: https://ximmerse.github.io/SDK_Doc/
+# Terminologies
+* Outside-In Tracking: Tracking camera is mounted on a wall or on a tripod. Heading tracking is done by calculating the head tracking blob position.
+* Inside-Out Tracking: Tracking camera is mounted on the HMD. Heading tracking is done by calculating HMD relative positon to external stationary marker blob.
 
 # Intro to Ximmerse Dev Kit
+## Hardware List
+### DK03
+### DK04 
+### CV1
+
 
 ## Outside-In Solution
 External camera tracks LED makers.
