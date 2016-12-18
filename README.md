@@ -1,6 +1,6 @@
 <div align=right><img src="Tools/imgs/xim.png" ></div>
 # Unboxing
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vif_awb7JV0" frameborder="0" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/vif_awb7JV0/0.jpg)](https://www.youtube.com/watch?v=vif_awb7JV0)
 
 # SDK
 SDK Documentation: https://ximmerse.github.io/SDK_Doc/
