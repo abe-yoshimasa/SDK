@@ -2,6 +2,9 @@
 # DK04 Unboxing
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/vif_awb7JV0/0.jpg)](https://www.youtube.com/watch?v=vif_awb7JV0)
 
+# DK04 Quick Start Guide
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/g7q3i46TrMY/0.jpg)](https://www.youtube.com/watch?v=g7q3i46TrMY)
+
 # Intro to Ximmerse Dev Kit
 ## Hardware List
 ### DK03
