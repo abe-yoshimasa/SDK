@@ -1,4 +1,4 @@
-<div align=right><img src="Tools/imgs/xim.png" ></div>
+<div align=right><img src="../../Tools/imgs/xim.png" ></div>
 #Windows PC Setup(USB Dongle Required)
 
 1. Power up tracking camera with the provided USB cable.

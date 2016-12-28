@@ -1,4 +1,4 @@
-<div align=right><img src="Tools/imgs/xim.png" ></div>
+<div align=right><img src="../../Tools/imgs/xim.png" ></div>
 # Get Your Android Phone Ximmerse Device Ready
 Follow these steps to ensure your DK04 devices work properly:
 

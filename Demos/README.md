@@ -1,4 +1,4 @@
-<div align=right><img src="Tools/imgs/xim.png" ></div>
+<div align=right><img src="../Tools/imgs/xim.png" ></div>
 <h1>Demos</h1>
 The demos are provided in this directory.
 Currently, only Android phone demos are provided due the ease of installation.

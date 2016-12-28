@@ -1,4 +1,4 @@
-<div align=right><img src="Tools/imgs/xim.png" ></div>
+<div align=right><img src="../Tools/imgs/xim.png" ></div>
 <h1>Release Notes </h1>
 (It is always recommended to use the latest version SDK, as some of the older SDKs may not work with the hardware anymore)
 
