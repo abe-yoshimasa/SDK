@@ -1,4 +1,4 @@
-# Hardware Test
+# Get Your Device Ximmerse Device Ready
 Follow these steps to ensure your DK04 devices work properly:
 
 1. Power up tracking camera with the provided USB cable.
