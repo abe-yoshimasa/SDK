@@ -1,13 +1,14 @@
+<div align=right><img src="Tools/imgs/xim.png" ></div>
 <h1>Release Notes </h1>
 (It is always recommended to use the latest version SDK, as some of the older SDKs may not work with the hardware anymore)
 
 SDK  v2.0
 * New BLE connection solution. Please check out SDK website for details: https://ximmerse.github.io/SDK_Doc/hardwareguide/
-* Added tracking area visual indicator. 
+* Added tracking area visual indicator.
 * Added functionality to get controller battery info.
 
 SDK  v1.2
-* Data Dispatching algorithm is greatly improved. 
+* Data Dispatching algorithm is greatly improved.
 * Fixed occasional tracking object not smooth in previous version of SDK.
 
 SDK  v1.1
@@ -44,20 +45,20 @@ SDK v1.0
 =======================================================
 
 <h2>Ximmerse Settings Tool </h2>
-Since SDK v2.0, a Ximmerse Settings tool is provided. 
+Since SDK v2.0, a Ximmerse Settings tool is provided.
 You can access it by going **Window->Ximmerse Settings** to open up the Ximmerse Setting tool.
 	<div align = center>
 	<img src="../Tools/imgs/xim_unity_setting_tool.png" width="800">
     </div>
-	
-#### Inspector Options:
-`VR Device` : Select which VR famility to support. Currently, there are 2 major families. One is Google Cardboard/Daydream, the other one GearVR/Oculus. 
 
-`Position` : Default User Height. 
+#### Inspector Options:
+`VR Device` : Select which VR famility to support. Currently, there are 2 major families. One is Google Cardboard/Daydream, the other one GearVR/Oculus.
+
+`Position` : Default User Height.
 
 `Rotation` : 15 degrees matches the tracking camera actual angle.
 
-Feel free to explore other options in Ximmerse Settings tool. The names of the fiels should be very self-explanary. 
+Feel free to explore other options in Ximmerse Settings tool. The names of the fiels should be very self-explanary.
 
 ==========================================================================
 
@@ -130,24 +131,23 @@ If any of the devices(head blob, left controller, and right controller) is out o
 ===========================================================================
 
 <h2>_PlayArea</h2>
-_PlayArea and all the children attached to it are generated during runtime. It is not a prefab. 
+_PlayArea and all the children attached to it are generated during runtime. It is not a prefab.
 
 ===========================================================================
 
 <h2>HeadAnchor(Outside-In)</h2>
 This prefab is instantiated during runtime, and is renamed as "HeadAnchor".
-CenterEyeAnchor is attached to this HeadAnchor during runtime. 
+CenterEyeAnchor is attached to this HeadAnchor during runtime.
 
 ===========================================================================
 
 <h2>GvrViewerMain</h2>
-This prefab is required when developing on Cardboard/Daydream system. 
+This prefab is required when developing on Cardboard/Daydream system.
 Once Google Daydream unity is imported, this prefab will automaticly find required script from Daydream unity plugin.
 
 ===========================================================================
 
 <h2>PlayerPrefsEx-Default</h2>
-PlayerPrefsEx-Default is prefab that contains all the settings related to Ximmerse Setting tool. 
+PlayerPrefsEx-Default is prefab that contains all the settings related to Ximmerse Setting tool.
 
 ===========================================================================
-

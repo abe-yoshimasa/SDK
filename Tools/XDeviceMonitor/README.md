@@ -1,3 +1,4 @@
+<div align=right><img src="Tools/imgs/xim.png" ></div>
 #Windows PC Setup(USB Dongle Required)
 
 1. Power up tracking camera with the provided USB cable.
@@ -7,7 +8,7 @@
 	<img src="../imgs/power_up_camera.jpg" width="400">
     </div>
 
-1. Run `reg.bat` as **administrator** to setup dev environment. 
+1. Run `reg.bat` as **administrator** to setup dev environment.
 >Note: It is necessary to make sure the file path of the `reg.bat` file doesn't contain any space, or it wouldn't run successfully. For simplicity, it is recommend to unzip the folder and put the folder under C drive root folder.
 
 1. Connect head tracking blob to one of the USB ports on your PC.

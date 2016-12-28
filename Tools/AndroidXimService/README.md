@@ -1,4 +1,5 @@
-# Get Your Device Ximmerse Device Ready
+<div align=right><img src="Tools/imgs/xim.png" ></div>
+# Get Your Android Phone Ximmerse Device Ready
 Follow these steps to ensure your DK04 devices work properly:
 
 1. Power up tracking camera with the provided USB cable.

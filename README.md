@@ -8,19 +8,19 @@
 # Intro to Ximmerse Dev Kit
 ## Hardware List
 ### DK03
-* Inside-Out tracking Solution. 
+* Inside-Out tracking Solution.
 * No head tracking.
 * Shorter tracking distance compared to DK04.
 
-### DK04 
+### DK04
 * Outside-In tracking.
-* Head positional tracking available. 
+* Head positional tracking available.
 * Conditional room scale tracking. (This solution is focusing on front 270 degree interaction).
 * Completely wireless.
 
 ### CV1
-* Does everything that Dk04 does and better. 
-* Easier/ more fluent device setup for consumers. 
+* Does everything that Dk04 does and better.
+* Easier/ more fluent device setup for consumers.
 * Scheduled to be released in the Q2 of 2017.
 
 # SDK
@@ -38,6 +38,5 @@
 # Terminologies
 * Outside-In Tracking: Tracking camera is mounted on a wall or on a tripod. Heading tracking is done by calculating the head tracking blob position.
 * Inside-Out Tracking: Tracking camera is mounted on the HMD. Heading tracking is done by calculating HMD relative positon to external stationary marker blob.
-* X-Hawk: This is commonly referring to tracking camera module. 
+* X-Hawk: This is commonly referring to tracking camera module.
 * X-Cobra: This is commonly referring to hand controllers.
-
