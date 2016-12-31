@@ -14,19 +14,19 @@ SDK v2.0.1
   * Device 3D models provided and used in the sample scene.
 
 * Release Notes:
-  1. Removed un-used assets in SDK package. 
-  2. Removed FIFO buffer for positional tracking.
-  3. Added experiemental fix for time stamp sync issue. (Most notable in inside-out tracking solution).
-  4. Added 3D models for tracking camera and controllers.
-  5. Improved tutorial / user guide scene.
-  6. Improved Unity Input extension for Unity3D 5.5+.
-  7. Optimized API for getting HMD data from external VR SDK.
-  8. Optimized VRContext script.
-  9. Moved calculating mark offset to Ext folder.
-  10. Moved boundry API to C/C++.
-  11. Moved tracker rendering API to C/C++.
-  12. Fixed controller recenter bug.
-  13. Improved BLE connection algrithem. 
+  * Removed un-used assets in SDK package. 
+  * Removed FIFO buffer for positional tracking.
+  * Added experiemental fix for time stamp sync issue. (Most notable in inside-out tracking solution).
+  * Added 3D models for tracking camera and controllers.
+  * Improved tutorial / user guide scene.
+  * Improved Unity Input extension for Unity3D 5.5+.
+  * Optimized API for getting HMD data from external VR SDK.
+  * Optimized VRContext script.
+  * Moved calculating mark offset to Ext folder.
+  * Moved boundry API to C/C++.
+  * Moved tracker rendering API to C/C++.
+  * Fixed controller recenter bug.
+  * Improved BLE connection algrithem. 
 
 ---------------------------------
 
