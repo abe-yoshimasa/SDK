@@ -2,44 +2,78 @@
 <h1>Release Notes </h1>
 (It is always recommended to use the latest version SDK, as some of the older SDKs may not work with the hardware anymore)
 
+---------------------------------
+
+SDK v2.0.1
+* Release Date:
+  * 12/28/2016
+
+* New Features:
+  * Supports Inside-out tracking solution with a quick setting switch.
+  * Added quick switch for popular mobile HMD, such as GearVR. Daydream, Cardboard, etc. 
+  * Device 3D models provided and used in the sample scene.
+
+* Release Notes:
+  1. Removed un-used assets in SDK package. 
+  2. Removed FIFO buffer for positional tracking.
+  3. Added experiemental fix for time stamp sync issue. (Most notable in inside-out tracking solution).
+  4. Added 3D models for tracking camera and controllers.
+  5. Improved tutorial / user guide scene.
+  6. Improved Unity Input extension for Unity3D 5.5+.
+  7. Optimized API for getting HMD data from external VR SDK.
+  8. Optimized VRContext script.
+  9. Moved calculating mark offset to Ext folder.
+  10. Moved boundry API to C/C++.
+  11. Moved tracker rendering API to C/C++.
+  12. Fixed controller recenter bug.
+  13. Improved BLE connection algrithem. 
+
+---------------------------------
+
 SDK  v2.0
 * New BLE connection solution. Please check out SDK website for details: https://ximmerse.github.io/SDK_Doc/hardwareguide/
 * Added tracking area visual indicator.
 * Added functionality to get controller battery info.
 
+---------------------------------
+
 SDK  v1.2
 * Data Dispatching algorithm is greatly improved.
 * Fixed occasional tracking object not smooth in previous version of SDK.
+
+---------------------------------
 
 SDK  v1.1
 * Fixed xml config file issue.
 * Included extensions for various headset systems and input systems, including HTV Vive, Oculus, Xbox controllers, etc. (Extensions are provided in a separate unity package.)
 * Optimized tracking algorithm.
 
+---------------------------------
+
 SDK v1.0
 * Official SDK that supports outside-in devices.
 
-
+---------------------------------
 
 <h1>Ximmerse SDK Integration Guide(v2.0)</h1>
 
 ### Setup from scratch
 1. Import Unity SDK package to your project.
-1. Create a plane where you can walk on. You can skip this step if you have an existing game environment.
-	<div align = center>
-	<img src="../Tools/imgs/empty_scene_with_plane.png" width="800">
+2. Create a plane where you can walk on. You can skip this step if you have an existing game environment.
+   <div align = center>
+   <img src="../Tools/imgs/empty_scene_with_plane.png" width="800">
     </div>
-1. Drag and drop `VRCameraRig` to the scene.
-	<div align = center>
-	<img src="../Tools/imgs/vrcamerarig_withhead.png" width="800">
+3. Drag and drop `VRCameraRig` to the scene.
+   <div align = center>
+   <img src="../Tools/imgs/vrcamerarig_withhead.png" width="800">
     </div>
 
-1. Make sure your hardware is hooked up to PC. Find how [here](https://github.com/Ximmerse/SDK/tree/master/Tools/PCSetupTools).
+4. Make sure your hardware is hooked up to PC. Find how [here](https://github.com/Ximmerse/SDK/tree/master/Tools/PCSetupTools).
 
-1. Hit **Play** button in editor.
-1. Move the head tracking blobs or/and controllers in front of the camera, and you should be able to see the virtual head or/and virtual controllers moving in the scene window.
-	<div align = center>
-	<img src="../Tools/imgs/playbutton.jpg" width="800">
+5. Hit **Play** button in editor.
+6. Move the head tracking blobs or/and controllers in front of the camera, and you should be able to see the virtual head or/and virtual controllers moving in the scene window.
+   <div align = center>
+   <img src="../Tools/imgs/playbutton.jpg" width="800">
     </div>
 
 =======================================================
@@ -49,7 +83,7 @@ Since SDK v2.0, a Ximmerse Settings tool is provided.
 You can access it by going **Window->Ximmerse Settings** to open up the Ximmerse Setting tool.
 	<div align = center>
 	<img src="../Tools/imgs/xim_unity_setting_tool.png" width="800">
-    </div>
+	</div>
 
 #### Inspector Options:
 `VR Device` : Select which VR famility to support. Currently, there are 2 major families. One is Google Cardboard/Daydream, the other one GearVR/Oculus.
@@ -78,7 +112,7 @@ This prefab is needed in the scene if you want to use provided ray caster to int
 A prefab that can be used to interact Unity UI with laser beam.
 
 ##### Inspector Options
-  - `Controller` : If this is "None", it will match its parent `ControllerType`. If it can't find anything, it will default to HMD input during runtime.
+- `Controller` : If this is "None", it will match its parent `ControllerType`. If it can't find anything, it will default to HMD input during runtime.
 
 ===========================================================================
 
@@ -112,7 +146,7 @@ If you look closely, there are a few objects getting created every time the game
 Default ControllerInput Manager prefab is a configuration prefab.
 	<div align = center>
 	<img src="../Tools/imgs/default_controllerinput.png" width="800">
-    </div>
+	</div>
 
 ===========================================================================
 
@@ -121,7 +155,7 @@ TrackerFrustum is a virtual representation of recommended interaction area. This
 If any of the devices(head blob, left controller, and right controller) is out of recommended interaction area, the grid wall will show up.
 	<div align = center>
 	<img src="../Tools/imgs/recommended_area.png" width="800">
-    </div>
+	</div>
 
 ##### Key Inspector Settings
 - `Fov X`: Horizontal FOV of the device.
