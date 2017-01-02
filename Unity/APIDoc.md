@@ -1,13 +1,20 @@
+<div align=right><img src="../Tools/imgs/xim.png" ></div>
 # Plugin Data Flow
 
   <div align = center>
-  <img src="../../../Tools/imgs/unity_plugin_flow.png" width="600" >
+  <img src="../Tools/imgs/unity_plugin_flow.png" width="600" >
+  
+  ***
+  
   </div>
   <div align = center>
-  <img src="../../../Tools/imgs/head_anchor_runtime.png" width="600" >
+  <img src="../Tools/imgs/head_anchor_runtime.png" width="400" >
+  
+  ***
+  
   </div>
   <div align = center>
-  <img src="../../../Tools/imgs/hand_anchor_runtime.png" width="600" >
+  <img src="../Tools/imgs/hand_anchor_runtime.png" width="400" >
   </div>
 
 ***
@@ -195,14 +202,14 @@ A helper class to easily access device status. The class is a singleton class, u
 
 # VRRaycaster
 ## Description
-A version of implementation of BaseRaycaster which can be attached to any GameObject. Once this script is running, you will be able to interact with Unity GUI system with the laser beam shot from the ray caster. More details can be find [here](unity_sdk_integration/#vrraycaster).
+A version of implementation of BaseRaycaster which can be attached to any GameObject. Once this script is running, you will be able to interact with Unity GUI system with the laser beam shot from the ray caster. More details can be find [here](../Readme.md#-vrraycaster).
 ## Namespace
 
     Ximmerse.UI
 ***
 # VRInputModule
 ## Description
-The class implements BaseInputModule, which enables you to manage multiple UI laser inputs. Details of usage can be found [here](unity_sdk_integration/#vreventsystem).
+The class implements BaseInputModule, which enables you to manage multiple UI laser inputs. Details of usage can be found [here](../Readme.md#-vreventsystem).
 ## Namespace
     Ximmerse.UI
 
