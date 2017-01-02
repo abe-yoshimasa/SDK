@@ -202,14 +202,14 @@ A helper class to easily access device status. The class is a singleton class, u
 
 # VRRaycaster
 ## Description
-A version of implementation of BaseRaycaster which can be attached to any GameObject. Once this script is running, you will be able to interact with Unity GUI system with the laser beam shot from the ray caster. More details can be find [here](https://github.com/Ximmerse/SDK/blob/master/Unity/Readme.md#-vrraycaster).
+A version of implementation of BaseRaycaster which can be attached to any GameObject. Once this script is running, you will be able to interact with Unity GUI system with the laser beam shot from the ray caster. More details can be find [here](https://github.com/Ximmerse/SDK/blob/master/Unity/Readme.md).
 ## Namespace
 
     Ximmerse.UI
 ***
 # VRInputModule
 ## Description
-The class implements BaseInputModule, which enables you to manage multiple UI laser inputs. Details of usage can be found [here](https://github.com/Ximmerse/SDK/blob/master/Unity/Readme.md#-vreventsystem-).
+The class implements BaseInputModule, which enables you to manage multiple UI laser inputs. Details of usage can be found [here](https://github.com/Ximmerse/SDK/blob/master/Unity/Readme.md).
 ## Namespace
     Ximmerse.UI
 
