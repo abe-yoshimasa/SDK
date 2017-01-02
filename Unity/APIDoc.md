@@ -91,7 +91,7 @@ A class that contains controller information such as button state, raw positions
     - `Grip Button(Right)` : Co-responding Enum value is `DaydreamButton.GripR`.
     - `Index Trigger` : Co-responding Enum value is `DaydreamButton.Trigger`.
 
-    ![Screenshot](img/controller_button.jpg)
+    <div align=left><img src="../Tools/imgs/controller_button.jpg" ></div>
 
     | Ximmerse Device    | Co-responding Enum Value      |
     | ------------------ | ----------------------------- |
