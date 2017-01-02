@@ -1,20 +1,20 @@
 <div align=right><img src="../Tools/imgs/xim.png" ></div>
 # Plugin Data Flow
 
-  <div align = center>
+  <div align = left>
   <img src="../Tools/imgs/unity_plugin_flow.png" width="600" >
   
   ***
   
   </div>
-  <div align = center>
-  <img src="../Tools/imgs/head_anchor_runtime.png" width="400" >
+  <div align = left>
+  <img src="../Tools/imgs/head_anchor_runtime.png" width="600" >
   
   ***
   
   </div>
-  <div align = center>
-  <img src="../Tools/imgs/hand_anchor_runtime.png" width="400" >
+  <div align = left>
+  <img src="../Tools/imgs/hand_anchor_runtime.png" width="600" >
   </div>
 
 ***
