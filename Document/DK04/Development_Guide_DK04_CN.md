@@ -69,7 +69,7 @@ Inside-Out|camera固定在HMD上,跟随HMD移动
 >- camera安装的高度约与用户眼睛水平位置一致
 
 <div align = center>
-<img src="../../../imgs/power_up_camera.jpg" width="400">
+<img src="../../Tools/imgs/power_up_camera.jpg" width="400">
 </div>
 
 1.2 在android手机上安装如下两个apks
@@ -83,21 +83,21 @@ Inside-Out|camera固定在HMD上,跟随HMD移动
 2.2 打开手机上的蓝牙功能，并打开BTConfig工具。
 >- 如果第一次打开BTConfig，会推荐安装"Ximmerse Service"，选择"Next"而后点击"Install"；
 <div align = center>
-<img src="../../../imgs/initial_btconfig_launch.png" width="400">
+<img src="../../Tools/imgs/initial_btconfig_launch.png" width="400">
 </div>
 <div align = center>
-<img src="../../../imgs/install_xim_service.png" width="400">
+<img src="../../Tools/imgs/install_xim_service.png" width="400">
 </div>
 
 2.3 分别按下BTConfig上的“Scan”按钮进行配对，手柄和应用程序的通过颜色对应。配对时需要同时按着手柄的两侧键，直到手柄的LED灯状态变为蓝色常亮，即手柄配对成功。
 <div align = center>
-<img src="../../../imgs/press_gripbuttons.jpg" width="400">
+<img src="../../Tools/imgs/press_gripbuttons.jpg" width="400">
 </div>
 <div align = center>
-<img src="../../../imgs/btconfig.jpg" width="400">
+<img src="../../Tools/imgs/btconfig.jpg" width="400">
 </div>
 <div align = center>
-<img src="../../../imgs/ble_connect_to_phone.jpg" width="400">
+<img src="../../Tools/imgs/ble_connect_to_phone.jpg" width="400">
 </div>
 
 #### 3 后台服务设置
@@ -105,16 +105,16 @@ Inside-Out|camera固定在HMD上,跟随HMD移动
 把头部信标和手机通过OTG线相连，会出现与如下截图相似的对话框，选择将"Ximmerse Service Launcher"设置为默认应用。设置成功之后，每次插入头部跟踪信标, Ximmerse Service将自行启动。
 
 <div align = center>
-<img src="../../../imgs/otg_to_phone.jpg" width="400">
+<img src="../../Tools/imgs/otg_to_phone.jpg" width="400">
 </div>
 <div align = center>
-<img src="../../../imgs/select_usb.png" width="400">
+<img src="../../Tools/imgs/select_usb.png" width="400">
 </div>
 
 #### 4 应用权限检查
 打开Application Manager，找到"Ximmerse Service Launcher"，点击"permissions",确认"location"和"storage"权限是打开的；这个步骤只需要做一次。
 <div align = center>
-<img src="../../../imgs/application_manager_app_info.png" width="400">
+<img src="../../Tools/imgs/application_manager_app_info.png" width="400">
 </div>
 
 #### 5 运行测试Demo
@@ -122,7 +122,7 @@ Inside-Out|camera固定在HMD上,跟随HMD移动
 > 设备处于连接状态时，手柄和Camera的指示灯保持蓝色常亮，头部信标也会保持蓝灯常亮；
 
 <div align = center>
-<img src="../../../imgs/test_app.png" width="400">
+<img src="../../Tools/imgs/test_app.png" width="400">
 </div>
 
 ## Windows运行环境安装
@@ -132,7 +132,7 @@ Inside-Out|camera固定在HMD上,跟随HMD移动
 #### 2 驱动更新(USB HID)
 1 将头部信标通过USB线和PC连接，打开“Device Manager”，发现新的“USB Input Device”设备；
 <div align = center>
-<img src="./imgs/install_usb_dongle_1.png" width="400">
+<img src="./imgs/install_usb_dongle_1.png" width="200">
 </div>
 2 点击右键，选择“Update Driver Software”
 <div align = center>
@@ -148,13 +148,18 @@ Inside-Out|camera固定在HMD上,跟随HMD移动
 </div>
 5 选择“HID-compliant device”,点击“Next”，驱动更新完毕后，出现新的设备
 <div align = center>
-<img src="./imgs/install_usb_dongle_5.png" width="400">
+<img src="./imgs/install_usb_dongle_5.png" width="200">
 </div>
 
 #### 3 手柄连接(XDeviceMonitor)
 请点击[地址](https://github.com/Ximmerse/SDK/tree/master/Tools/XDeviceMonitor)，获取XDeviceMonitor工具和使用说明。
 
 #### 4 测试(DeviceTest)
+手柄、camera和PC连接成功后，打开测试用例” DeviceTest”，可观察到手柄按键信息、位置信息和姿态信息。
+<div align = center>
+<img src="./imgs/windows_demo_devicetest.png" width="500">
+</div>
+
 # 开发指南
 ## Unity SDK
 请点击[地址](https://github.com/Ximmerse/SDK/tree/master/Unity)，获取unity插件和开发指南。
