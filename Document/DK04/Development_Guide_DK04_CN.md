@@ -71,7 +71,7 @@ Inside-Out|camera固定在HMD上,跟随HMD移动
 <img src="../../Tools/imgs/power_up_camera.jpg" width="400">
 </div>
 
-1.2 在android手机上安装如下两个apks
+1.2 在android手机上安装如下两个apk
 > - BTConfig.apk: 用于手柄配对的工具
 > - DeviceTest.apk：用于测试设备的工具，可以在手机上输出position, rotation、button等信息
 
@@ -89,7 +89,7 @@ Inside-Out|camera固定在HMD上,跟随HMD移动
 <img src="../../Tools/imgs/install_xim_service.png" width="400">
 </div>
 
-2.3 分别按下BTConfig上的“Scan”按钮进行配对，手柄和应用程序的通过颜色对应。配对时需要同时按着手柄的两侧键，直到手柄的LED灯状态变为蓝色常亮，即手柄配对成功。
+2.3 分别按下BTConfig上的“Scan”按钮进行配对，手柄和应用程序通过颜色对应。配对时需要同时按着手柄的两侧键，直到手柄的LED灯状态变为蓝色常亮，即手柄配对成功。
 <div align = center>
 <img src="../../Tools/imgs/press_gripbuttons.jpg" width="400">
 </div>
@@ -169,6 +169,7 @@ Inside-Out|camera固定在HMD上,跟随HMD移动
 获取unity插件API说明，请点击[地址](https://github.com/Ximmerse/SDK/blob/master/Unity/APIDoc.md).  
 
 ## Android SDK
-有待完善
+获取Android SDK，请点击[地址](https://github.com/Ximmerse/SDK/tree/master/Native%20Android/DeviceTest)
+
 ## Windows C++ SDK
-有待完善
+获取C++ SDK，请点击[地址](https://github.com/Ximmerse/SDK/tree/master/Native%20C%2B%2B/windows)
