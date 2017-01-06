@@ -3,7 +3,7 @@
 - [名词约定](#名词约定)
 - [平台支持](#平台支持)
 - [目录介绍](#目录介绍)
-- [开发概述](#开发概述)
+- [开发指南](#开发指南)
 	- [Android手机运行环境安装](#android手机运行环境安装)
 		- [1 应用安装](#1-应用安装)
 		- [2 手柄配对](#2-手柄配对)
@@ -15,7 +15,6 @@
 		- [2 驱动更新(USB HID)](#2-驱动更新usb-hid)
 		- [3 手柄连接(XDeviceMonitor)](#3-手柄连接xdevicemonitor)
 		- [4 运行测试Demo](#4-运行测试demo)
-- [开发指南](#开发指南)
 	- [Unity SDK](#unity-sdk)
 	- [Android SDK](#android-sdk)
 	- [Windows C++ SDK](#windows-c-sdk)
@@ -60,7 +59,7 @@ Inside-Out|camera固定在HMD上,跟随HMD移动
 * **Unity**：Unity插件
 * **Unreal**：Unreal插件  
 
-# 开发概述
+# 开发指南
 ## Android手机运行环境安装
 
 ### 1 应用安装
@@ -161,11 +160,14 @@ Inside-Out|camera固定在HMD上,跟随HMD移动
 <img src="./imgs/windows_demo_devicetest.png" width="500">
 </div>
 
-# 开发指南
+
 ## Unity SDK
-获取unity插件和开发指南，请点击[地址](https://github.com/Ximmerse/SDK/tree/master/Unity).
-获取unity插件的FAQ，请点击[地址](https://github.com/Ximmerse/SDK/blob/master/Unity/FQA.md).
-获取unity插件API说明，请点击[地址](https://github.com/Ximmerse/SDK/blob/master/Unity/APIDoc.md).
+获取unity插件和使用说明，请点击[地址](https://github.com/Ximmerse/SDK/tree/master/Unity).  
+
+获取unity插件的FAQ，请点击[地址](https://github.com/Ximmerse/SDK/blob/master/Unity/FQA.md).  
+
+获取unity插件API说明，请点击[地址](https://github.com/Ximmerse/SDK/blob/master/Unity/APIDoc.md).  
+
 ## Android SDK
 有待完善
 ## Windows C++ SDK
