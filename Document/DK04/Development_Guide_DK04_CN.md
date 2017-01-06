@@ -13,7 +13,7 @@
 	- [Windows运行环境安装](#windows运行环境安装)
 		- [1 驱动安装(CSR Dongle)](#1-驱动安装csr-dongle)
 		- [2 驱动更新(USB HID)](#2-驱动更新usb-hid)
-		- [3 手柄连接](#3-手柄连接)
+		- [3 手柄连接(XDeviceMonitor)](#3-手柄连接xdevicemonitor)
 		- [4 运行测试Demo](#4-运行测试demo)
 - [开发指南](#开发指南)
 	- [Unity SDK](#unity-sdk)
@@ -82,6 +82,7 @@ Inside-Out|camera固定在HMD上,跟随HMD移动
 2.1 长按手柄的‘O’键大约3秒,打开两个手柄。
 2.2 打开手机上的蓝牙功能，并打开BTConfig工具。
 >- 如果第一次打开BTConfig，会推荐安装"Ximmerse Service"，选择"Next"而后点击"Install"；
+
 <div align = center>
 <img src="../../Tools/imgs/initial_btconfig_launch.png" width="400">
 </div>
@@ -151,7 +152,7 @@ Inside-Out|camera固定在HMD上,跟随HMD移动
 <img src="./imgs/install_usb_dongle_5.png" width="">
 </div>
 
-### 3 手柄连接
+### 3 手柄连接(XDeviceMonitor)
 请点击[地址](https://github.com/Ximmerse/SDK/tree/master/Tools/XDeviceMonitor)，获取手柄连接工具XDeviceMonitor和它的使用说明。
 
 ### 4 运行测试Demo
@@ -162,8 +163,10 @@ Inside-Out|camera固定在HMD上,跟随HMD移动
 
 # 开发指南
 ## Unity SDK
-请点击[地址](https://github.com/Ximmerse/SDK/tree/master/Unity)，获取unity插件和开发指南。
+获取unity插件和开发指南，请点击[地址](https://github.com/Ximmerse/SDK/tree/master/Unity).
+获取unity插件的FAQ，请点击[地址](https://github.com/Ximmerse/SDK/blob/master/Unity/FQA.md).
+获取unity插件API说明，请点击[地址](https://github.com/Ximmerse/SDK/blob/master/Unity/APIDoc.md).
 ## Android SDK
-TODO
+有待完善
 ## Windows C++ SDK
-TODO
+有待完善
