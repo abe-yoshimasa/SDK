@@ -1,8 +1,10 @@
 <div align=right><img src="../Tools/imgs/xim.png" ></div>
 
-SDK API Doc can be found [here](https://github.com/Ximmerse/SDK/blob/master/Unity/APIDoc.md).
+[SDK API Documentation](https://github.com/Ximmerse/SDK/blob/master/Unity/APIDoc.md)
 ------------------------
-FAQ can be found [here](https://github.com/Ximmerse/SDK/blob/master/Unity/FQA.md).
+[Unity SDK FAQ](https://github.com/Ximmerse/SDK/blob/master/Unity/FQA.md)
+-----------------------------
+[DK04 FAQ](https://github.com/Ximmerse/SDK/blob/master/Document/DK04/FQA_EN.md)
 -----------------------------
 <h1>Release Notes </h1>
 (It is always recommended to use the latest version SDK, as some of the older SDKs may not work with the hardware anymore)
