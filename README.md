@@ -40,6 +40,10 @@
 * <a href="https://github.com/Ximmerse/SDK/tree/master/Native%20C%2B%2B">C++ SDK</a>  
 * <a href="https://github.com/Ximmerse/SDK/tree/master/Native%20Android/DeviceTest">Android Native SDK</a> 
 
+# Platform Setup
+* <a href="https://github.com/Ximmerse/SDK/tree/master/Tools/PCSetupTools">Windows/OS X Setup</a>
+* <a href="https://github.com/Ximmerse/SDK/tree/master/Tools/AndroidXimService">Android Phone Setup</a>
+
 # Terminologies
 * Outside-In Tracking: Tracking camera is mounted on a wall or on a tripod. 
 * Inside-Out Tracking: Tracking camera is mounted on the HMD. 

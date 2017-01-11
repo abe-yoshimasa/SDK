@@ -1,5 +1,5 @@
 <div align=right><img src="../../Tools/imgs/xim.png" ></div>
-#Windows PC Setup(USB Dongle Required)
+#Windows PC/OS X Setup(USB Dongle Required for Windows PC)
 
 1. Power up tracking camera with the provided USB cable.
 >Note : The light on bottom of the camera will be flashing once connected to a power source. When you mount the camera on a wall or on a tripod, it is recommended to make sure the tracking camera is sitting at your eye level.
@@ -8,13 +8,13 @@
 	<img src="../imgs/power_up_camera.jpg" width="400">
     </div>
 
-1. Run `reg.bat` as **administrator** to setup dev environment.
+1. (Skip this step if you are on an OS X) Run `reg.bat` as **administrator** to setup dev environment.
 >Note: It is necessary to make sure the file path of the `reg.bat` file doesn't contain any space, or it wouldn't run successfully. For simplicity, it is recommend to unzip the folder and put the folder under C drive root folder.
 
-1. Connect head tracking blob to one of the USB ports on your PC.
+1. Connect head tracking blob to one of the USB ports on your PC or Mac.
 >Note : The blue light on bottom of the tracking camera should start blinking in blue at this point.
 
-1. At this point, you will only be able to get controller position data through tracking camera. To get controller button and IMU data, please follow the guide below:
+1. (Skip this step if you are on an OS X) At this point, you will only be able to get controller position data through tracking camera. To get controller button and IMU data, please follow the guide below:
 
     * Make sure both controllers are turned on.
 
@@ -38,4 +38,5 @@
 		<img src="../imgs/xdevice_monitor_connected.png" width="400">
         </div>
 
-1. Your hardware is now ready to be used on your PC. If our Unity SDK is downloaded(which can be downloaded [here](https://github.com/Ximmerse/SDK/tree/master/Unity)) and imported, you can run ``"02 - Pick Cubes"`` sample scene and start moving around.
+1. Your hardware is now ready to be used on your PC or Mac. If our Unity SDK is downloaded(which can be downloaded [here](https://github.com/Ximmerse/SDK/tree/master/Unity)) and imported, you can run ``"02 - Pick Cubes"`` sample scene and start moving around.
+> Note: Please make sure controllers are turned on before running the sample demo.
