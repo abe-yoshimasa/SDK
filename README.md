@@ -41,8 +41,8 @@
 * <a href="https://github.com/Ximmerse/SDK/tree/master/Native%20Android/DeviceTest">Android Native SDK</a> 
 
 # Terminologies
-* Outside-In Tracking: Tracking camera is mounted on a wall or on a tripod. Heading tracking is done by calculating the head tracking blob position.
-* Inside-Out Tracking: Tracking camera is mounted on the HMD. Heading tracking is done by calculating HMD relative positon to external stationary marker blob.
+* Outside-In Tracking: Tracking camera is mounted on a wall or on a tripod. 
+* Inside-Out Tracking: Tracking camera is mounted on the HMD. 
 * X-Hawk: This is commonly referring to tracking camera module.
 * X-Cobra: This is commonly referring to hand controllers.
 
