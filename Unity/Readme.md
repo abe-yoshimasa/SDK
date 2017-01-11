@@ -17,7 +17,12 @@ SDK v2.0.1
   * Supports Inside-out tracking solution with a quick setting switch.
   * Added quick switch for popular mobile HMD, such as GearVR. Daydream, Cardboard, etc. 
   * Device 3D models provided and used in the sample scene.
-
+  * Add OS X support
+  		* Known Issues:
+  			* Sometimes, the Unity stops getting data from Xim devices. A Unity restart will solve this problem.
+  			* BLE data may be swapped sometimes.(IE, left hand controller BLE data is received by right hand.)
+  			* OS X only works on OS X platform. If switch to iOS in editor, it will throw DLL entry point errors.
+  			
 * Release Notes:
   * Removed un-used assets in SDK package. 
   * Removed FIFO buffer for positional tracking.

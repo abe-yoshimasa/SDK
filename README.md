@@ -24,19 +24,27 @@
 * Scheduled to be released in the Q2 of 2017.
 
 # SDK
-* SDK API Documentation: https://ximmerse.github.io/SDK_Doc/
 * Supported Platforms:
 	* Android
 	* Windows 7/8/10
+	* Mac OS X
 * Supported Engines:
 	* Unity3D
 	* Unreal 4
 * Soon to be Supported Platforms:
 	* iOS
-	* Mac OS X
+
+# SDK Download
+* <a href="https://github.com/Ximmerse/SDK/tree/master/Unity">Unity SDK</a>
+* <a href="https://github.com/Ximmerse/SDK/tree/master/Unreal">Unreal 4 SDK</a> 
+* <a href="https://github.com/Ximmerse/SDK/tree/master/Native%20C%2B%2B">C++ SDK</a>  
+* <a href="https://github.com/Ximmerse/SDK/tree/master/Native%20Android/DeviceTest">Android Native SDK</a> 
 
 # Terminologies
 * Outside-In Tracking: Tracking camera is mounted on a wall or on a tripod. Heading tracking is done by calculating the head tracking blob position.
 * Inside-Out Tracking: Tracking camera is mounted on the HMD. Heading tracking is done by calculating HMD relative positon to external stationary marker blob.
 * X-Hawk: This is commonly referring to tracking camera module.
 * X-Cobra: This is commonly referring to hand controllers.
+
+# Support
+* <a href="mailto:support@ximmerse.com">Contact us</a> 
