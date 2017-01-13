@@ -14,7 +14,7 @@ Outside-In 方案的开发者版本.
 
 
 ### 3DOF Controller
-3自由度手柄的开发者版本
+3自由度手柄的开发者版本，可反馈9轴(rotation、gyroscope、acceleration)、按键、触摸板等信息
 * 产品介绍
 * [SDK使用指南](https://github.com/Ximmerse/SDK/blob/master/Document/3DOF/Development_Guide_3DOF_CN.md)
 * [常见问题解答](https://github.com/Ximmerse/SDK/blob/master/Document/3DOF/FQA_CN.md)

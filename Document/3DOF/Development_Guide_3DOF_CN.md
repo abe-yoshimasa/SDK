@@ -167,7 +167,7 @@ kConnectionState_Disconnected|断开连接
 kConnectionState_Scanning|正在扫描
 kConnectionState_Connecting|正在连接
 kConnectionState_Connected|已经连接
-kConnectionState_Error|连接错误，可通过读取设备的ErrorCode熟悉获取错误码
+kConnectionState_Error|连接错误，可通过读取设备的ErrorCode获取错误码
 
 消息(Message)|说明
 ---|---
