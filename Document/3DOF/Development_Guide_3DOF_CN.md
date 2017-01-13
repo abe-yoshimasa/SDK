@@ -85,7 +85,7 @@ X-Cobra|手柄的别称
 <img src="../../Tools/imgs/install_xim_service.png" width="400">
 </div>
 
-2.3 先按下BTConfig的Controller(R)的“Scan”按钮，然后同时按着手柄的'APP'和'BACK'键，配对成功后手柄状态变为"Paired"，退出应用；
+2.3 先按下BTConfig的Controller(R)的“Scan”按钮，然后同时按着手柄的'APP'和'HOME'键，配对成功后手柄状态变为"Paired"，退出应用；
 
 > 手柄只需要配对一次；更换新的手柄时，重复“手柄配对”的步骤即可
 
