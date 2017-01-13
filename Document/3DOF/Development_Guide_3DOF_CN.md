@@ -9,7 +9,7 @@
 		- [1 应用安装](#1-应用安装)
 		- [2 手柄配对](#2-手柄配对)
 		- [3 应用权限检查](#3-应用权限检查)
-		- [4 测试Demo](#4-测试demo)
+		- [4 测试emo](#4-测试emo)
 		- [5 演示demo](#5-演示demo)
 	- [Unity SDK](#unity-sdk)
 	- [Android SDK](#android-sdk)
@@ -104,7 +104,7 @@ X-Cobra|手柄的别称
 </div>
 
 &emsp;
-### 4 测试Demo
+### 4 测试demo
 设备和手机保持连接状态，运行[Device Test](https://github.com/Ximmerse/SDK/raw/master/Tools/AndroidXimService/DeviceTest.apk)，通过界面可观察到从手柄姿态、按键等信息。
 
 <div align = center>
