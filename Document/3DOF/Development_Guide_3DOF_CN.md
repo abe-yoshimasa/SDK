@@ -74,6 +74,7 @@ X-Cobra|手柄的别称
 ### 2 手柄配对
 
 2.1 装入电池，手柄自动开机。
+
 2.2 打开手机上的蓝牙功能，并打开BTConfig工具。
 >- 如果第一次打开BTConfig，会推荐安装"Ximmerse Service"，选择"Next"而后点击"Install"；
 
