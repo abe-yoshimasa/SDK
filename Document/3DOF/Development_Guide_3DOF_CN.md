@@ -8,9 +8,9 @@
 	- [Android手机运行环境安装](#android手机运行环境安装)
 		- [1 应用安装](#1-应用安装)
 		- [2 手柄配对](#2-手柄配对)
-		- [4 应用权限检查](#4-应用权限检查)
-		- [5 测试Demo](#5-测试demo)
-		- [6 演示demo](#6-演示demo)
+		- [3 应用权限检查](#3-应用权限检查)
+		- [4 测试Demo](#4-测试demo)
+		- [5 演示demo](#5-演示demo)
 	- [Unity SDK](#unity-sdk)
 	- [Android SDK](#android-sdk)
 		- [API说明](#api说明)
@@ -96,14 +96,14 @@ X-Cobra|手柄的别称
 </div>
 
 &emsp;
-### 4 应用权限检查
+### 3 应用权限检查
 打开Application Manager，找到"Ximmerse Service Launcher"，点击"permissions",确认"location"和"storage"权限是打开的；这个步骤只需要做一次。
 <div align = center>
 <img src="../../Tools/imgs/application_manager_app_info.png" width="400">
 </div>
 
 &emsp;
-### 5 测试Demo
+### 4 测试Demo
 设备和手机保持连接状态，运行[Device Test](https://github.com/Ximmerse/SDK/raw/master/Tools/AndroidXimService/DeviceTest.apk)，通过界面可观察到从手柄姿态、按键等信息。
 
 <div align = center>
@@ -111,7 +111,7 @@ X-Cobra|手柄的别称
 </div>  
 
 &emsp;
-### 6 演示demo
+### 5 演示demo
 名称 | HMD
 ---|---
 [Playground(Cardboards)](https://github.com/Ximmerse/SDK/blob/master/Demos/3DOF/Playground(Cardboards).apk) | Google Cardboards
