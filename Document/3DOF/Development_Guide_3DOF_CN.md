@@ -67,8 +67,8 @@ X-Cobra|手柄的别称
 
 ### 1 应用安装
 1.1 在android手机上安装如下两个apk
-> - BTConfig.apk: 用于手柄配对的工具
-> - DeviceTest.apk：用于测试设备的工具，可以在手机上输出rotation、button等信息
+> - [BTConfig.apk](https://github.com/Ximmerse/SDK/blob/master/Tools/AndroidXimService/BTConfig1.0.10(service-v2.0.1).apk): 用于手柄配对的工具
+> - [DeviceTest.apk](https://github.com/Ximmerse/SDK/blob/master/Tools/AndroidXimService/DeviceTest.apk)：用于测试设备的工具，可以在手机上输出rotation、button等信息
 
 &emsp;
 ### 2 手柄配对
