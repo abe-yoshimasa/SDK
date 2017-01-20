@@ -2,7 +2,7 @@
 
 [SDK API Documentation](https://github.com/Ximmerse/SDK/blob/master/Unity/APIDoc.md)
 ------------------------
-[Unity SDK FAQ](https://github.com/Ximmerse/SDK/blob/master/Unity/FQA.md)
+[Unity SDK FAQ](https://github.com/Ximmerse/SDK/blob/master/Unity/FAQ.md)
 -----------------------------
 [DK04 FAQ](https://github.com/Ximmerse/SDK/blob/master/Document/DK04/FAQ_EN.md)
 -----------------------------
