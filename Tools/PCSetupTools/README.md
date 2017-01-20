@@ -15,7 +15,8 @@
 
     * Make sure both controllers are turned on.
 
-    * Plugin CSR 4.0 USB module into one of your PC USB port.
+    * Plug in [CSR 4.0 USB module](http://www.csr.com/products/bluecore-csr8510-a10-wlcsp) into one of your PC USB port. You can purchase a CSR 4.0 USB module online. A possible supplier can be found [here](https://www.amazon.com/BAIDATONG-Bluetooth-4-0-Micro-Adapter/dp/B00RZLTA6M/ref=sr_1_1?s=pc&ie=UTF8&qid=1484891771&sr=8-1&keywords=CSR+4.0+Dongle+Receiver+CSR+8510+Chipset). But you are free to choose your preffered supplier as long as the dongle your are purchasing uses `CSR8510™ A10 chipset`.
+
         <div align = center>
 		<img src="../imgs/csr.jpg" width="400">
         </div>
