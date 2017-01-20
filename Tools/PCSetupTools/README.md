@@ -1,5 +1,5 @@
 <div align=right><img src="../../Tools/imgs/xim.png" ></div>
-#Windows PC/OS X Setup(USB Dongle Required for Windows PC)
+#Windows PC Setup(USB Dongle Required)
 
 1. Power up tracking camera with the provided USB cable.
 >Note : The light on bottom of the camera will be flashing once connected to a power source. When you mount the camera on a wall or on a tripod, it is recommended to make sure the tracking camera is sitting at your eye level.
@@ -8,13 +8,10 @@
 	<img src="../imgs/power_up_camera.jpg" width="400">
     </div>
 
-1. (Skip this step if you are on an OS X) Run `reg.bat` as **administrator** to setup dev environment.
->Note: It is necessary to make sure the file path of the `reg.bat` file doesn't contain any space, or it wouldn't run successfully. For simplicity, it is recommend to unzip the folder and put the folder under C drive root folder.
-
-1. Connect head tracking blob to one of the USB ports on your PC or Mac.
+1. Connect head tracking blob to one of the USB ports on your PC.
 >Note : The blue light on bottom of the tracking camera should start blinking in blue at this point.
 
-1. (Skip this step if you are on an OS X) At this point, you will only be able to get controller position data through tracking camera. To get controller button and IMU data, please follow the guide below:
+1. At this point, you will only be able to get controller position data through tracking camera. To get controller button and IMU data, please follow the guide below:
 
     * Make sure both controllers are turned on.
 
@@ -27,7 +24,7 @@
 
     * Run ``"XDeviceMonitor.exe"`` executable which can be downloaded [here](https://github.com/Ximmerse/SDK/blob/master/Tools/XDeviceMonitor/XDeviceMonitor.rar?raw=true)
 
-    * Most of the time, once ``"XDeviceMonitor.exe"`` starts, it should try to automatically search and pair your controllers. However, if this doesn't happy after a while, you can always RIGHT click on controller icon and select ``"Auto-Connect"``.
+    * Most of the time, once ``"XDeviceMonitor.exe"`` starts, it should try to automatically search and pair your controllers. However, if this doesn't auto-connect after a while, you can always RIGHT click on controller icon and select ``"Auto-Connect"``.
         <div align = center>
 		<img src="../imgs/xdevice_monitor_controller_icon.png" width="400">
         </div>
@@ -38,5 +35,4 @@
 		<img src="../imgs/xdevice_monitor_connected.png" width="400">
         </div>
 
-1. Your hardware is now ready to be used on your PC or Mac. If our Unity SDK is downloaded(which can be downloaded [here](https://github.com/Ximmerse/SDK/tree/master/Unity)) and imported, you can run ``"02 - Pick Cubes"`` sample scene and start moving around.
-> Note: Please make sure controllers are turned on before running the sample demo.
+1. Your hardware is now ready to be used on your PC. If our Unity SDK is downloaded(which can be downloaded [here](https://github.com/Ximmerse/SDK/tree/master/Unity)) and imported, you can run ``"02 - Pick Cubes"`` sample scene and start moving around. You can also run a quick [device test application](https://github.com/Ximmerse/SDK/blob/master/Tools/PCSetupTools/PC_Device_Test.zip?raw=true) to make sure your devices are working correctly on your PC.
