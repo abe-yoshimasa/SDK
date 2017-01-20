@@ -22,7 +22,7 @@
 
     * Download CSR Drivers [here](https://github.com/Ximmerse/SDK/tree/master/Drivers/CSR%20Drivers) and install the driver that is compatible to your Windows operation system.
 
-    * Run ``"XDeviceMonitor.exe"`` executable which can be downloaded [here](https://github.com/Ximmerse/SDK/blob/master/Tools/XDeviceMonitor/XDeviceMonitor.rar?raw=true)
+    * Run ``"XDeviceMonitor.exe"`` executable which can be downloaded [here](https://github.com/Ximmerse/SDK/blob/master/Tools/PCSetupTools/XDeviceMonitor.rar?raw=true)
 
     * Most of the time, once ``"XDeviceMonitor.exe"`` starts, it should try to automatically search and pair your controllers. However, if this doesn't auto-connect after a while, you can always RIGHT click on controller icon and select ``"Auto-Connect"``.
         <div align = center>
