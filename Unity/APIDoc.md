@@ -82,27 +82,30 @@ A class that contains controller information such as button state, raw positions
 -   `bool GetButtonUp(DaydreamButton buttonMask)`: If a button is released compared to last frame.
 -   `bool GetButtonDown(DaydreamButton buttonMask)`: If a button is pressed compared to last frame.
 
-    > Note : Please only use DaydreamButton enum to get button states.
+-   `bool GetButton(ControllerRawButton buttonMask)`: Returns a button state. Below is a picture to show the physical button and co-responding button mask.
+-   `bool GetButtonUp(ControllerRawButton buttonMask)`: If a button is released compared to last frame.
+-   `bool GetButtonDown(ControllerRawButton buttonMask)`: If a button is pressed compared to last frame.
 
-    - `Touch Pad Click` : Co-responding Enum value is `DaydreamButton.Click`.
-    - `App Button` : Co-responding Enum value is `DaydreamButton.App`.
-    - `Power/Home Button` : Co-responding Enum value is `DaydreamButton.Home`.
-    - `Grip Button(Left)` : Co-responding Enum value is `DaydreamButton.GripL`.
-    - `Grip Button(Right)` : Co-responding Enum value is `DaydreamButton.GripR`.
-    - `Index Trigger` : Co-responding Enum value is `DaydreamButton.Trigger`.
+
+    - `Touch Pad Click` : Co-responding Enum value is `DaydreamButton.Click` or `ControllerRawButton.LeftThumb`.
+    - `App Button` : Co-responding Enum value is `DaydreamButton.App` or `ControllerRawButton.Back`.
+    - `Power/Home Button` : Co-responding Enum value is `DaydreamButton.Home` or `ControllerRawButton.Start`.
+    - `Grip Button(Left)` : Co-responding Enum value is `DaydreamButton.GripL` or `ControllerRawButton.LeftShoulder`.
+    - `Grip Button(Right)` : Co-responding Enum value is `DaydreamButton.GripR` or `ControllerRawButton.RightShoulder`.
+    - `Index Trigger` : Co-responding Enum value is `DaydreamButton.Trigger` or `ControllerRawButton.LeftTrigger`.
 
     <div align=left><img src="../Tools/imgs/controller_button.jpg" ></div>
 
-    | Ximmerse Device    | Co-responding Enum Value      |
-    | ------------------ | ----------------------------- |
-    | Touch Pad Click    | DaydreamButton.Click          |
-    | App Button         | DaydreamButton.App            |
-    | Power/Home Button  | DaydreamButton.Home           |
-    | Grip Button(Left)  | DaydreamButton.GripL          |
-    | Grip Button(Right) | DaydreamButton.GripR          |
-    | Index Trigger      | ControllerRawAxis.LeftTrigger |
-    | Touch Pad X Value  | ControllerRawAxis.LeftThumbX  |
-    | Touch Pad Y Value  | ControllerRawAxis.LeftThumbY  |
+    | Ximmerse Device    | Co-responding Enum Value      | Co-responding Enum Value          |
+    | ------------------ | ----------------------------- |-----------------------------      |
+    | Touch Pad Click    | DaydreamButton.Click          |ControllerRawButton.LeftThumb      |
+    | App Button         | DaydreamButton.App            |ControllerRawButton.Back           |
+    | Power/Home Button  | DaydreamButton.Home           |ControllerRawButton.Start          |
+    | Grip Button(Left)  | DaydreamButton.GripL          |ControllerRawButton.LeftShoulder   |
+    | Grip Button(Right) | DaydreamButton.GripR          |ControllerRawButton.RightShoulder  |
+    | Index Trigger      | ControllerRawAxis.LeftTrigger |ControllerRawButton.LeftTrigger    |
+    | Touch Pad X Value  | ControllerRawAxis.LeftThumbX  |ControllerRawAxis.LeftThumbX       |
+    | Touch Pad Y Value  | ControllerRawAxis.LeftThumbY  |ControllerRawAxis.LeftThumbY       |
 
 ***
 # TrackedObject
