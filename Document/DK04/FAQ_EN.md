@@ -5,7 +5,7 @@
 
 &emsp;
 
-**2. Gevr VR headset doesn't power up head tracking blob.**
+**2. Gear VR headset doesn't power up head tracking blob.**
 >  Only 2nd gen and 4th gen Gear VRs are supported.
 
 &emsp;
@@ -16,7 +16,7 @@
 
 &emsp;
 
-**4. When running PickCube demo in Gear VR, it prompts "thread priority secority escption makesure the apk is signed".**
+**4. When running PickCube demo in Gear VR, it prompts "thread priority security exception, make sure the apk is signed".**
 
 >  You have to make sure your apk includes the osig files generated from Oculus developer website. More info [here](https://docs.unity3d.com/Manual/VRDevices-Oculus.html).
 
@@ -24,7 +24,7 @@
 
 **5. How to config All-in-One VR HMD?**
 
->  For Android powered All-in-One HMDs, you could use third party softwares(vysor、total Control) to control the HMD from your PCs. 
+>  For Android powered All-in-One HMDs, you could use third party softwares(vysor、total Control) to control the HMD from your PCs.
 
 &emsp;
 
@@ -32,12 +32,12 @@
 
 > * Press one of the controllers' "Home" button will re-cener the device orientation only.
 > * Press both of the controller "Home" button will re-center device orientation and virtual world coordinates.
- 
+
 &emsp;
 
 **5. My Windows PC doesn't receive any position data.**
 > If your device works on your phone, but it doesn't work on your windows PC. You may have a USB driver issue. Follow the following steps to get it solved:
-> 	1. Go to "Device Manager" and check it you have any warning on any of the HID devices. 
+> 	1. Go to "Device Manager" and check it you have any warning on any of the HID devices.
 <div align = left><img src="./imgs/install_usb_dongle_2.png" width="">
 </div>
 >	2. Click on “Browse my computer for driver software”
