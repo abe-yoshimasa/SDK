@@ -30,6 +30,13 @@ public class MainActivity extends AppCompatActivity implements  OnClickListener 
     protected int handleControllerRight;
 
     @Override
+    protected void onDestroy()
+    {
+        XDeviceApi.exit();
+        super.onDestroy();
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
