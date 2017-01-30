@@ -1,5 +1,6 @@
+<div align=right><img src="Tools/imgs/xim.png" ></div>
 <!--toc-->
-
+# Table of Contents
 - [What's in the Box](#dk04-unboxing)
 	- [DK04 Unboxing](https://www.youtube.com/watch?v=vif_awb7JV0)
 - [Quick Start Guide](#dk04-quick-start-guide)
@@ -7,6 +8,7 @@
 - [Intro To Ximmerse Dev Kit](#intro-to-ximmerse-dev-kit)
 	- [DK03](#dk03)
 	- [DK04](#dk04)
+		- [DK04 FAQs](https://github.com/Ximmerse/SDK/blob/master/Document/DK04/FAQ_EN.md)
 	- [CV1](#cv1)
 - [SDK](#sdk)
 	- [Unity SDK](https://github.com/Ximmerse/SDK/tree/master/Unity)
@@ -21,12 +23,27 @@
 - [Platform Setup](#platform-setup)
 	- [Windows/OS X Setup](https://github.com/Ximmerse/SDK/tree/master/Tools/PCSetupTools)
 	- [Android Phone Setup](https://github.com/Ximmerse/SDK/tree/master/Tools/AndroidXimService)
-- [Playable Demos]()
-
+- [Playable Demos](https://github.com/Ximmerse/SDK/tree/master/Demos)
+	- [Demo Setup Instruction](https://github.com/Ximmerse/SDK/blob/master/Demos/README.md)
+	- [3DOF](https://github.com/Ximmerse/SDK/tree/master/Demos/3DOF)
+	- [6DOF](https://github.com/Ximmerse/SDK/tree/master/Demos/6DOF)
+- [Terminologies](#terminologies)
+	- [Outside-In Tracking](#terminologies)
+	- [Inside-Out Tracking](#terminologies)
+	- [X-Hawk](#terminologies)
+	- [X-Cobra](#terminologies)
+- [Support](#support)
+	- [Contact Us](mailto:support@ximmerse.com)
+	
+	
+	
+	
+	
+	
 <!-- tocstop -->
 
 
-<div align=right><img src="Tools/imgs/xim.png" ></div>
+
 # DK04 Unboxing
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/vif_awb7JV0/0.jpg)](https://www.youtube.com/watch?v=vif_awb7JV0)
 

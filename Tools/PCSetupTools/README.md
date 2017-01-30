@@ -1,8 +1,10 @@
 <div align=right><img src="../../Tools/imgs/xim.png" ></div>
-#Windows PC Setup(USB Dongle Required)
+#Windows PC/ Mac OS X Setup(USB Dongle Required for PC)
 
 1. Power up tracking camera with the provided USB cable.
 >Note : The light on bottom of the camera will be flashing once connected to a power source. When you mount the camera on a wall or on a tripod, it is recommended to make sure the tracking camera is sitting at your eye level.
+>
+>Please make sure this tracking device is not attached to the same computer that you are developing on.
 
     <div align = center>
 	<img src="../imgs/power_up_camera.jpg" width="400">
@@ -11,7 +13,7 @@
 1. Connect head tracking blob to one of the USB ports on your PC.
 >Note : The blue light on bottom of the tracking camera should start blinking in blue at this point.
 
-1. At this point, you will only be able to get controller position data through tracking camera. To get controller button and IMU data, please follow the guide below:
+1. `(Mac users skip to next step.)` At this point, you will only be able to get controller position data through tracking camera. To get controller button and IMU data, please follow the guide below:
 
     * Make sure both controllers are turned on.
 
@@ -36,4 +38,4 @@
 		<img src="../imgs/xdevice_monitor_connected.png" width="400">
         </div>
 
-1. Your hardware is now ready to be used on your PC. If our Unity SDK is downloaded(which can be downloaded [here](https://github.com/Ximmerse/SDK/tree/master/Unity)) and imported, you can run ``"02 - Pick Cubes"`` sample scene and start moving around. You can also run a quick [device test application](https://github.com/Ximmerse/SDK/blob/master/Tools/PCSetupTools/PC_Device_Test.zip?raw=true) to make sure your devices are working correctly on your PC.
+1. Your hardware is now ready to be used on your PC or Mac. If our Unity SDK is downloaded(which can be downloaded [here](https://github.com/Ximmerse/SDK/tree/master/Unity)) and imported, you can run ``"02 - Pick Cubes"`` sample scene and start moving around. You can also run a quick [device test application](https://github.com/Ximmerse/SDK/blob/master/Tools/PCSetupTools/PC_Device_Test.zip?raw=true) to make sure your devices are working correctly on your PC or Mac.
