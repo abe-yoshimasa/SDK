@@ -52,3 +52,9 @@
 <div align = left>
 <img src="./imgs/install_usb_dongle_5.png" width="">
 </div>
+
+&emsp;
+
+**6. Can I Use Ximmerse Devices on Mac OS X?**
+> Yes, you can. Please watch this video for more info:
+> [![IMAGE ALT TEXT HERE](./imgs/sdk_tutorial_mac_setup.png)](https://www.youtube.com/watch?v=F5ZhkIWI-BQ)
