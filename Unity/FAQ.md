@@ -55,6 +55,4 @@ because head position requires complex calculation, which is already done in `Tr
 >
 
 **5. How to Integrate Daydream SDK with Ximmerse SDK?**
-> Daydream SDK and Ximmerse SDK Integration:
-> 
-> [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/9FwfIG5-bRE/0.jpg)](https://www.youtube.com/watch?v=9FwfIG5-bRE)
+> [![IMAGE ALT TEXT HERE](../Tools/imgs/daydream_sdk_integration.png)](https://www.youtube.com/watch?v=d6YVdRvNGfw)
