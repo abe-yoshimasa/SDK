@@ -162,11 +162,17 @@ Inside-Out|camera固定在HMD上,跟随HMD移动
 
 
 ## Unity SDK
-获取unity插件和使用说明，请点击[地址](https://github.com/Ximmerse/SDK/tree/master/Unity).  
+**开发工具版本要求**
+ - JDK 1.8或以上版本
+ - Unity 5.4或以上版本
+ - Android 4.4或以上版本
 
-获取unity插件的FAQ，请点击[地址](https://github.com/Ximmerse/SDK/blob/master/Unity/FQA.md).  
+**资源下载**
+- [Unity插件](https://github.com/Ximmerse/SDK/tree/master/Unity)
+- [FAQ](https://github.com/Ximmerse/SDK/blob/master/Unity/FQA.md)
+- [API说明](https://github.com/Ximmerse/SDK/blob/master/Unity/APIDoc.md)
 
-获取unity插件API说明，请点击[地址](https://github.com/Ximmerse/SDK/blob/master/Unity/APIDoc.md).  
+
 
 ## Android SDK
 获取Android SDK，请点击[地址](https://github.com/Ximmerse/SDK/tree/master/Native%20Android/DeviceTest)
