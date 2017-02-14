@@ -8,7 +8,7 @@
 	- [2.2 API说明](#22-api说明)
 		- [1) com.ximmerse.sdk.XDeviceApi](#1-comximmersesdkxdeviceapi)
 		- [2) com.ximmerse.sdk.XDeviceConstants](#2-comximmersesdkxdeviceconstants)
-			- [3) com.ximmerse.input.ControllerInput.State](#3-comximmerseinputcontrollerinputstate)
+		- [3) com.ximmerse.input.ControllerInput.State](#3-comximmerseinputcontrollerinputstate)
 
 <!-- tocstop -->
 
@@ -106,7 +106,7 @@ kMessage_TriggerVibration|电机振动
 kMessage_RecenterSensor|回正
 
 &emsp;
-#### 3) com.ximmerse.input.ControllerInput.State
+### 3) com.ximmerse.input.ControllerInput.State
 > 按键定义请参考[microsoft gamepad](https://msdn.microsoft.com/en-us/library/windows/apps/microsoft.directx_sdk.reference.xinput_gamepad)
 
 方法|说明
