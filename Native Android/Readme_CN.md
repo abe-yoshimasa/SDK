@@ -1,13 +1,13 @@
 <!--toc-->
 
 - [1.系统结构](#1系统结构)
-		- [1.1 总体结构](#11-总体结构)
-		- [1.2 Java API实现框架](#12-java-api实现框架)
+	- [1.1 总体结构](#11-总体结构)
+	- [1.2 Java API实现框架](#12-java-api实现框架)
 - [2.Java API说明](#2java-api说明)
 	- [2.1 package介绍](#21-package介绍)
 	- [2.2 API说明](#22-api说明)
-			- [1) com.ximmerse.sdk.XDeviceApi](#1-comximmersesdkxdeviceapi)
-			- [2) com.ximmerse.sdk.XDeviceConstants](#2-comximmersesdkxdeviceconstants)
+		- [1) com.ximmerse.sdk.XDeviceApi](#1-comximmersesdkxdeviceapi)
+		- [2) com.ximmerse.sdk.XDeviceConstants](#2-comximmersesdkxdeviceconstants)
 			- [3) com.ximmerse.input.ControllerInput.State](#3-comximmerseinputcontrollerinputstate)
 
 <!-- tocstop -->
@@ -15,7 +15,7 @@
 
 # 1.系统结构
 
-### 1.1 总体结构
+## 1.1 总体结构
 <div align = center>
 <img src="./imgs/android_sdk_framework.png" width="400">
 </div>
@@ -36,7 +36,7 @@ Item | 名称 | 说明
 
 &emsp;
 
-### 1.2 Java API实现框架
+## 1.2 Java API实现框架
 <div align = center>
 <img src="./imgs/client_framework.png" width="400">
 </div>
@@ -71,7 +71,7 @@ com.ximmerse.input.PositionalTracking | 位置跟踪器(3DOF Controller无该功
 com.ximmerse.hardware.DeviceConnection| 设备的客户端接口
 
 &emsp;
-#### 1) com.ximmerse.sdk.XDeviceApi
+### 1) com.ximmerse.sdk.XDeviceApi
 
 方法 | 用途
 ---|---
@@ -85,7 +85,7 @@ public static float getFloat(int which, int fieldID, float defaultValue) |获取
 public static int sendMessage(int which, int Msg, int wParam, int lParam) |向设备发送消息
 &emsp;
 
-#### 2) com.ximmerse.sdk.XDeviceConstants
+### 2) com.ximmerse.sdk.XDeviceConstants
 设备属性 | 用途
 ---|---
 kField_ConnectionState | 设备连接状态
