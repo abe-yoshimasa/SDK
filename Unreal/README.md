@@ -13,7 +13,7 @@ This is due to the nature of plugin life cycle handling in Unreal 4 Engine.
 1. Please follow [this guide](https://github.com/Ximmerse/SDK/tree/master/Tools/AndroidXimService) to make sure Samsung phone is Xim device ready.
 2. Make sure you have Osig files ready and copy them into the assets folder. (C:\Program Files (x86)\Epic Games\4.12\Engine\Build\Android\Java\assets) (The path may be different on your machine depending on engine installation location and engine version ).
 	<div align = center>
-	<img src="../tools/imgs/copy_osigs.png" width="700">
+	<img src="../Tools/imgs/copy_osigs.png" width="700">
     </div>
 3. Copy the "xdevice-api_library" folder in to "C:\Program Files (x86)\Epic Games\4.12\Engine\Build\Android\Java\JavaLibs" directory(The path may be different on your machine depending on engine installation location and engine version ).
 	<div align = center>
