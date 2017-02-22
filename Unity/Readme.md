@@ -88,6 +88,7 @@ SDK v1.0
    <img src="../Tools/imgs/playbutton.jpg" width="800">
     </div>
 7. If Custom AndroidMenifest is used, please make sure the following permission are included:
+
   `<uses-permission android:name="android.permission.INTERNET" />`
   
   `<uses-permission android:name="android.permission.WAKE_LOCK" />`
