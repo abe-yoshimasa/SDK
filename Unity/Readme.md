@@ -67,7 +67,7 @@ SDK v1.0
 
 ---------------------------------
 
-<h1>Ximmerse SDK Integration Guide(v2.0)</h1>
+<h1>Ximmerse SDK Integration Guide</h1>
 
 ### Setup from scratch
 1. Import Unity SDK package to your project.
@@ -87,6 +87,15 @@ SDK v1.0
    <div align = center>
    <img src="../Tools/imgs/playbutton.jpg" width="800">
     </div>
+7. If Custom AndroidMenifest is used, please make sure the following permission are included:
+  `<uses-permission android:name="android.permission.INTERNET" />`
+  `<uses-permission android:name="android.permission.WAKE_LOCK" />`
+  `<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />`
+ 
+  `<uses-permission android:name="android.permission.BLUETOOTH" />`
+  `<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />`
+  `<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>`
+  
 
 =======================================================
 
