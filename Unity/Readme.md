@@ -89,11 +89,15 @@ SDK v1.0
     </div>
 7. If Custom AndroidMenifest is used, please make sure the following permission are included:
   `<uses-permission android:name="android.permission.INTERNET" />`
+  
   `<uses-permission android:name="android.permission.WAKE_LOCK" />`
+  
   `<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />`
  
   `<uses-permission android:name="android.permission.BLUETOOTH" />`
+  
   `<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />`
+  
   `<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>`
   
 
