@@ -20,6 +20,7 @@ This is due to the nature of plugin life cycle handling in Unreal 4 Engine.
 	<img src="../Tools/imgs/copy_java_libs.png" width="700">
     </div>
 4. Please make sure you have all the 7 permissions in "Advanced Packaging" setting. 
+
 	`android.permission.ACCESS_COARSE_LOCATION`
 	`android.permission.INTERNET`
 	`android.permission.WAKE_LOCK`
@@ -27,9 +28,10 @@ This is due to the nature of plugin life cycle handling in Unreal 4 Engine.
 	`android.permission.BLUETOOTH`
 	`android.permission.BLUETOOTH_ADMIN`
 	`android.permission.ACCESS_FINE_LOCATION`
+	
 5. Once above steps are finsihed, all you need to do is make a build and launch it from your android phone. 
 
 <h2> Sample Project </h2>
 Sample project is provided in this directory. 
 The project is configured to work out of box. 
-All you have to do is make sure you finish the PC setup if you wanna run it on PC, or finish the android phone setup if you wanna test it on GearVR.
+All you have to do is make sure you finish the [PC setup](https://github.com/Ximmerse/SDK/tree/master/Tools/PCSetupTools) if you wanna run it on PC, or finish the [android phone setup](https://github.com/Ximmerse/SDK/tree/master/Tools/AndroidXimService) if you wanna test it on GearVR.
