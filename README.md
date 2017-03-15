@@ -1,6 +1,9 @@
 <div align=right><img src="Tools/imgs/xim.png" ></div>
+
 <!--toc-->
+
 # Table of Contents
+
 - [What's in the Box](#dk04-unboxing)
 	- [DK04 Unboxing](https://www.youtube.com/watch?v=vif_awb7JV0)
 - [Quick Start Guide](#dk04-quick-start-guide)
